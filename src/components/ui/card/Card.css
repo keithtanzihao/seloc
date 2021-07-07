@@ -1,0 +1,41 @@
+.base {
+    display: flex;
+    border-radius: 24px;
+    box-sizing: border-box;
+    margin: 0.5%;
+    height: 25rem;
+}
+
+.size1 {
+    width: 32%;
+}
+
+.size2 {
+    width: 64%;
+}
+
+/* .bg1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../../utils/imgs/berrymix.png');
+} */
+
+.cardLight0 {
+    background-color: #edeae7;
+}
+
+.cardLight1 {
+    background-color: #D5D2CF;
+}
+
+.cardDark {
+    background-color: #383634;
+}
+
+.cardGreen {
+    background-color: #4c7c7d;
+}
+
+.cardRed {
+    background-color: #e45959;
+}
