@@ -1,8 +1,9 @@
 
+import './Button.css'
 
-const Button = ({content, children}) => {
+const Button = ({css, content, children}) => {
     return (
-        <button>
+        <button className={css}>
             <span>{content}</span>
             {children}
         </button>

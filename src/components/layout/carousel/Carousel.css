@@ -1,8 +1,13 @@
 .sectionContainer {
-    border: 4px solid #ffa500;
+    /* border: 4px solid #ffa500; */
     padding: 1rem 1rem 1rem;
 }
 
 .sectionCarousel {
     display: flex;
+    align-items: center;
+}
+
+.fading {
+    opacity: 50%;
 }
