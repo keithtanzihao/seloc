@@ -1,0 +1,72 @@
+.sa-gf-card {
+  background-color: #e45959;
+  width: 92%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-radius: 6px;
+}
+
+.sa-gf-content {
+  margin: 1.5rem;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sa-gf-content h1 {
+  margin: 0 0 0.5rem;
+  font-family: 'gilroy-bolduploaded_file';
+}
+
+.sa-gf-content a {
+  margin-top: 0.5rem;
+  color: inherit;
+  font-family: 'gilroy-bolduploaded_file';
+}
+
+.sa-gf-content span {
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+  font-family: 'latoregular';
+}
+
+.sa-gf-button {
+  border: none;
+  border-radius: 50px;
+  height: 3.5rem;
+  width: 15rem;
+
+  background-color: white;
+  color: red;
+  font-family: 'latoregular';
+  font-size: 1.2rem;
+  pointer-events: auto;
+}
+
+.sa-gf-button:hover {
+  background-color: #e5e5e5;
+}
+
+.sa-gf-button:active {
+  font-size: 1.1rem;
+}
+
+.sa-gf-img {
+  display: flex;
+  align-items: center;
+}
+
+.sa-gf-truck {
+  font-size: 7rem;
+  transform: scaleX(-1);
+  color: white;
+}
+
+.sa-gf-dash {
+  margin-left: 1rem;
+  font-size: 5rem;
+  color: white;
+}

@@ -1,0 +1,117 @@
+{
+  "product": [
+    {
+      "nutrition": {
+        "nutrients": [
+          {
+            "_id": "61077ef8e35ff2258c54b579",
+            "name": "Calcium",
+            "amount": 0,
+            "unit": "mg",
+            "percentOfDailyNeeds": 0
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b57a",
+            "name": "Carbohydrates",
+            "amount": 3,
+            "unit": "g",
+            "percentOfDailyNeeds": 1
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b57b",
+            "name": "Calories",
+            "amount": 15,
+            "unit": "kcal",
+            "percentOfDailyNeeds": 0.75
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b57c",
+            "name": "Fat",
+            "amount": 0,
+            "unit": "g",
+            "percentOfDailyNeeds": 0
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b57d",
+            "name": "Fiber",
+            "amount": 1,
+            "unit": "g",
+            "percentOfDailyNeeds": 4
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b57e",
+            "name": "Iron",
+            "amount": 0.36,
+            "unit": "mg",
+            "percentOfDailyNeeds": 2
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b57f",
+            "name": "Protein",
+            "amount": 0,
+            "unit": "g",
+            "percentOfDailyNeeds": 0
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b580",
+            "name": "Sodium",
+            "amount": 780,
+            "unit": "mg",
+            "percentOfDailyNeeds": 33.91
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b581",
+            "name": "Sugar",
+            "amount": 2,
+            "unit": "g",
+            "percentOfDailyNeeds": 2.22
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b582",
+            "name": "Vitamin A",
+            "amount": 0,
+            "unit": "IU",
+            "percentOfDailyNeeds": 0
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b583",
+            "name": "Vitamin C",
+            "amount": 0,
+            "unit": "mg",
+            "percentOfDailyNeeds": 0
+          },
+          {
+            "_id": "61077ef8e35ff2258c54b584",
+            "name": "Net Carbohydrates",
+            "amount": 2,
+            "unit": "g",
+            "percentOfDailyNeeds": 0.73
+          }
+        ],
+        "calories": 15,
+        "fat": "0g",
+        "protein": "0g",
+        "carbs": "3g"
+      },
+      "servings": {
+        "number": 13,
+        "size": 1,
+        "unit": "tbsp"
+      },
+      "images": [
+        "https://spoonacular.com/productImages/22348-90x90.jpeg",
+        "https://spoonacular.com/productImages/22348-312x231.jpeg",
+        "https://spoonacular.com/productImages/22348-636x393.jpeg"
+      ],
+      "_id": "61077ef8e35ff2258c54b578",
+      "id": 22348,
+      "title": "Lee Kum Kee Chili Garlic Sauce",
+      "price": 9.99,
+      "likes": 0,
+      "aisle": "Ethnic Foods",
+      "description": "Lee Kum KeeÂ® chili garlic sauce is a combination of well-blended, ripened chili, and garlic. Perfect as a dipping sauce, or used as a cooking base for all meat, seafood, pasta, and rice. Trademarks owner: Lee Kum Kee Co. Ltd. www.lkk.com.",
+      "ingredientList": "Salted Chili Peppers (Chili Peppers, Salt), Garlic, Sugar, Rice Vinegar, Water, Modified Corn Starch, Acetic Acid",
+      "__v": 0
+    }
+  ]
+}

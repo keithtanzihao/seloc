@@ -1,0 +1,47 @@
+/* Pretty sure this is not the way to go for doing custom styles */
+
+.base {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.size1 {
+    width: 32%;
+}
+
+.size2 {
+    width: 64%;
+}
+
+.sizeProduct {
+    height: 25rem;
+    width: 15rem;   
+}
+
+.cardLight0 {
+    background-color: #edeae7;
+}
+
+.cardLight1 {
+    background-color: #D5D2CF;
+}
+
+.cardWhite {
+    background-color: white;
+}
+
+.cardDark {
+    background-color: #383634;
+}
+
+.cardGreen {
+    background-color: #4c7c7d;
+}
+
+.cardRed {
+    background-color: #e45959;
+}
+
+.slide.fading {
+    opacity: 50%;
+}

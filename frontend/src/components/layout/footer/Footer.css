@@ -1,0 +1,40 @@
+.footer-pattern {
+  display: block;
+}
+
+.footer-container {
+  background-color: #e45959;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+
+  color: white;
+  height: 150%;
+}
+
+.logo-content,
+.footer-content,
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: -4rem;
+  font-family: 'gilroy-mediumuploaded_file';
+}
+
+.logo-content h1 {
+  font-family: 'gilroy-extrabolduploaded_file';
+  margin: 0;
+}
+
+.logo-content div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content span:first-child,
+.newsletter-content span:first-child {
+  font-family: 'gilroy-bolduploaded_file';
+  font-size: 1.2rem;
+}

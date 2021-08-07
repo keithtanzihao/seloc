@@ -1,0 +1,14 @@
+.dis-product {
+  /* width: 92%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 1rem; */
+  all: inherit;
+  margin: 0; 
+  width: 92%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

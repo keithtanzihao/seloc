@@ -1,0 +1,84 @@
+/*
+Margins dont fill up entire flex-box, Might have to redo the 
+entire container structure to fix this issue
+
+Potential issue when making page responsive
+*/
+.prod-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 14rem;
+  height: 29.6rem;
+
+  margin: 0 0.8rem 2rem; 
+}
+
+.prod-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+}
+
+.prod-discount {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'gilroy-bolduploaded_file';
+  position: absolute;
+  top: -3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prod-img-container {
+  display: flex;
+  justify-content: center;
+  height: 15rem;
+  width: auto;
+}
+
+.prod-img {
+  margin-top: 1rem;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.prod-title {
+  font-size: 1rem;
+  font-family: 'latoregular';
+  margin-top: 1rem;
+  height: 4rem;
+  width: 95%;
+  align-self: center;
+}
+
+.prod-price {
+  font-size: 2rem;
+  font-family: 'gilroy-bolduploaded_file';
+  margin: 0 0.5rem;
+}
+
+.prod-button {
+  border: none;
+  border-radius: 6px;
+
+  height: 3rem;
+  width: 95%;
+  margin-bottom: 0.5rem;
+
+  background-color: #d5d2cf;
+  font-family: 'latoregular';
+  font-size: 1.2rem;
+  pointer-events: auto;
+
+  align-self: center;
+}
+
+.prod-button:active {
+  background-color: #AAA8A6;
+}

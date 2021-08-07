@@ -1,0 +1,25 @@
+.carousel-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 5rem;
+  height: 2rem;
+
+  z-index: 10;
+}
+
+.carousel-nav-btn {
+  margin: 0 0.5rem 0;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.btn-selected {
+  background-color: black;
+}

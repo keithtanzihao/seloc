@@ -1,0 +1,52 @@
+.ad-lowercost {
+  all: inherit; 
+  background-color: #d5d2cf;
+}
+
+.ad-lowercost-img {
+  height: 100%;
+}
+
+.ad-lowercost-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #edeae7;
+  height: 15rem;
+  width: 20rem;
+
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 24px;
+
+  font-family: 'gilroy-bolduploaded_file';
+  font-size: 1.2rem;
+}
+
+.ad-lowercost .ad-lowercost-card h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+ .ad-lowercost-button {
+  border: none;
+  border-radius: 12px;
+  width: 8rem;
+  padding: 4% 3%;
+  
+  background-color: #4c7c7d;
+  color: white;
+  font-family: 'latoregular';
+  font-size: 1.2rem;
+  pointer-events: auto;
+}
+
+.ad-lowercost .ad-lowercost-card .ad-lowercost-button:hover {
+  background-color: #3C6364;
+}
+
+.ad-lowercost .ad-lowercost-card .ad-lowercost-button:active {
+  font-size: 1rem;
+}

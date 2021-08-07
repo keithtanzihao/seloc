@@ -1,0 +1,73 @@
+.cybersale-card {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background: linear-gradient(to bottom, #e45959 50%, #F8EA8C 50%);
+  border-radius: 6px;
+  height: 29.6rem;
+  width: 29.6rem;
+
+  position: relative;
+  margin: 0 0.8rem;
+  /* margin: 0 1.6rem 0 0; */
+}
+
+.cybersale-img-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+31.2
+.cybersale-img-title {
+  margin-bottom: 1rem;
+}
+
+.cybersale-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cybersale-content h1 {
+  font-size: 1.5rem;
+  font-family: 'gilroy-bolduploaded_file';
+  margin-bottom: 0.5rem;
+}
+
+.cybersale-content span {
+  font-size: 1.1rem;
+  font-family: 'latoregular';
+  margin-bottom: 1rem;
+}
+
+.cybersale-content a {
+  font-size: 1.1rem;
+  font-family: 'latoregular';
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.cybersale-content-button {
+  border: none;
+  border-radius: 24px;
+  height: 3rem;
+  width: 15rem;
+
+  background-color: white;
+  color: black;
+  font-family: 'latoregular';
+  font-size: 1.2rem;
+  pointer-events: auto;
+}
+
+.cybersale-content-button:active {
+  font-size: 1.1rem;
+}

@@ -1,0 +1,67 @@
+.ad-fresh {
+  all: inherit;
+  justify-content: space-between;
+}
+
+.ad-fresh-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #383634;
+  flex-grow: 2;
+  height: 100%;
+
+  color: white;
+  font-family: 'gilroy-bolduploaded_file';
+
+}
+
+.ad-fresh-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.content-nested-1 {
+  display: flex;
+}
+
+.ad-fresh-icon {
+  font-size: 12rem;
+}
+
+.ad-fresh-content h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.ad-fresh-button {
+  border: none;
+  border-radius: 12px;
+  width: 8rem;
+  padding: 4% 3%;
+  margin-top: 1rem;
+  
+  background-color: white;
+  color: #383634;
+  font-family: 'latoregular';
+  font-size: 1.2rem;
+  pointer-events: auto;
+}
+
+.ad-fresh-button:hover {
+  background-color: #e5e5e5;
+}
+
+.ad-fresh-button:active {
+  font-size: 1rem;
+}
+
+.ad-fresh-img {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}

@@ -1,0 +1,46 @@
+.carousel-container {
+    display: flex;
+    position: relative;
+    height: 22rem;
+}
+
+.carousel-overlay-left-arrow {
+    position: absolute;
+    z-index: 10;
+
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.carousel-overlay-right-arrow {
+    position: absolute;
+    z-index: 10;
+
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.carousel-overlay-left-arrow:hover,
+.carousel-overlay-right-arrow:hover {
+    font-size: 3.5rem;
+}
+
+.carousel-overlay-left-arrow:active,
+.carousel-overlay-right-arrow:active {
+    font-size: 3.2rem;
+}
+
+.carousel-backdrop {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}

@@ -1,0 +1,23 @@
+.navItem {
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  box-sizing: border-box;
+}
+
+.navItem:hover {
+  background-color: brown;
+}
+
+.navItemIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.navItemIcon + a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'gilroy-bolduploaded_file';
+  color: white;
+}
