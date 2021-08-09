@@ -1,0 +1,10 @@
+.sidebar {
+  all: inherit;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  background-color: #383634;
+  height: 100vh;
+}
